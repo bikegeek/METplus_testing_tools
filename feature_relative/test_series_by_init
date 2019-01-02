@@ -1,0 +1,14 @@
+# These are the configuration files that are needed to run all the feature relative use cases  using the
+# master_metplus.py script 
+# Data was provided by SBU and is found on the host 'eyewall' /d1/SBU/GFS
+
+# For series by init
+python $METPLUS_HOME/METplus/ush/master_metplus.py $METPLUS_HOME/METplus/parm/use_cases/feature_relative/feature_relative.conf
+
+# For series by lead, all fhrs
+python $METPLUS_HOME/METplus/ush/master_metplus.py $METPLUS_HOME/METplus/parm/use_cases/feature_relative/examples/series_by_lead_all_fhrs.conf -c /home/minnawin/METplus_testing_tools/feature_relative/series_by_lead_all_fhrs.conf
+
+# For series by lead, grouping
+python $METPLUS_HOME/METplus/ush/master_metplus.py $METPLUS_HOME/METplus/parm/use_cases/feature_relative/examples/series_by_lead_by_fhr_grouping.conf -c /home/minnawin/METPlus_testing_tools/feature_relative/series_by_lead_grouping.conf
+~
+
