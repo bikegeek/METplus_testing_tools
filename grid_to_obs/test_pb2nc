@@ -1,9 +1,0 @@
-#These are the configuration files that are needed to run all the pb2nc unit tests using the 
-# pytests in the METplus internal_tests/pytests/pb2nc/test_pb2nc_wrapper.py
-# Data was provided by Mallory Row for the CROW sprint
-
-# For conus surface data
-internal_tests/pytests/pb2nc/pb2nc_test_conus_sfc.conf /home/minnawin/METplus_testing_tools/grid2obs/g2o_conus_pb2nc.conf
-
-# For upper air data
-internal_tests/pytests/pb2nc/pb2nc_test_upper_air.conf /home/minnawin/METplus_testing_tools/grid2obs/g2o__pb2nc.conf

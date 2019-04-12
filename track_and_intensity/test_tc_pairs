@@ -1,7 +1,0 @@
-
-#The following are the configuration files that are used in conjunction with the test_tc_pairs_wrapper.py unit test in the
-# METplus internal_tests/pytests/tc_pairs directory:
-
-
-internal_tests/pytests/tc_pairs/tc_pairs_wrapper_test.conf /home/minnawin/METplus_testing/track_and_intensity/tc_non_atcf.conf
-internal_tests/pytests/tc_pairs/tc_pairs_wrapper_test.conf /home/minnawin/METplus_testing/track_and_intensity/tc_pairs_nhc.conf
